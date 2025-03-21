@@ -14,7 +14,7 @@
 
 ## About this Project 🚀
 
-This project implements three algorithms in C++ that demonstrate the analysis and processing of a context-free grammar and its corresponding Pushdown Automaton (PDA). The grammar used is:
+This project implements three algorithms in C++ that demonstrate the analysis and processing ofa context-free grammar and its corresponding Pushdown Automaton (PDA). The grammar used is:
 
 > **G:**  
 > **S → aSb | ε**
@@ -46,7 +46,7 @@ This project implements three algorithms in C++ that demonstrate the analysis an
 
 - **Required Tools:**  
   - Visual Studio Code (IDE/Editor)  
-  - MSYS2 / MinGW (Compilation)  
+  - MSYS2 /MinGW (Compilation)  
   - Command Prompt / Terminal  
 
 ---
@@ -57,7 +57,7 @@ This project implements three algorithms in C++ that demonstrate the analysis an
 - **ALGORITHM_2_LFCO_2025_MM_SA.cpp**  
 - **ALGORITHM_3_LFCO_2025_MM_SA.cpp**  
 - **Main.cpp:**  
-  The file (`Main.cpp`) includes the three algorithms, executing them sequentially without requiring user input. All output is displayed in the console.  
+  The file (`Main.cpp`) includes the three algorithms,executing them sequentially without requiring user input. All output is displayed in the console.  
 
 ---
 
@@ -89,7 +89,7 @@ This project implements three algorithms in C++ that demonstrate the analysis an
 # Explanation of the Algorithms 🔍
 
 ## 1. ALGORITHM_1: String Generation
-This module generates **valid** and **invalid** strings according to the production rule. The generated strings are printed to the console and saved in the file `Cadenas_generadas.txt`, which will serve as input for the second algorithm.
+This modulegenerates **valid** and **invalid** strings according to the production rule. The generated strings are printed to the console and saved in the file `Cadenas_generadas.txt`, which will serve as input for the second algorithm.
 
 ### Important Functions
 
@@ -175,7 +175,7 @@ Stores each step of the simulation with the following information:
 
 - **paso**  
 - **indice:** Position in the input string.  
-- **entradaRestante:** Portion of the input yet to be processed.  
+- **entradaRestante:** portion of the input yet to be processed.  
 - **contenidoPila:** Current stack contents.  
 - **mensaje:** Message describing the action (push, pop, error).  
 
@@ -222,8 +222,8 @@ Stores each derivation step with:
 Generates the leftmost derivation for a given string:  
 
 - Starts with the initial sentential form `S`.  
-- Repeatedly applies the rule **S → aSb** based on the count of consecutive `'a'` characters.  
-- Finally applies the rule **S → ε** to complete the derivation.  
+- repeatedly applies the rule **S → aSb** based on the count of consecutive `'a'` characters.  
+- finally applies the rule **S → ε** to complete the derivation.  
 
 ```cpp
 vector<PasoDerivacion> derivacionIzquierda(const string &x) {

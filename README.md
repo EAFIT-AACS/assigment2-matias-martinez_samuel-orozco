@@ -6,7 +6,6 @@
 
 - **Class:**  
   - Wednesday SI2002-2 (7309)  
-
 ---
 > **Readings 23 and 24 from Kozen (1997) were used as references for the concepts of Pushdown Automata and Context-Free Grammars applied in this project.**  
 > Kozen, D. C. (1997). *Automata and Computability.* Springer-Verlag, Berlin, Heidelberg.  

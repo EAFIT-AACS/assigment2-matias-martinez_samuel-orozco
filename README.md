@@ -5,19 +5,17 @@
   - Samuel Orozco Valencia  
 
 - **Class:**  
-  - Wednesday SI2002-2 (7309)  
+  - Wednesday(7309)  
 ---
 > **Readings 23 and 24 from Kozen (1997) were used as references for the concepts of Pushdown Automata and Context-Free Grammars applied in this project.**  
 > Kozen, D. C. (1997). *Automata and Computability.* Springer-Verlag, Berlin, Heidelberg.  
 ---
 
 ## About this Project 🚀
-
 This project implements three algorithms in C++ that demonstrate the analysis and processing ofa context-free grammar and its corresponding Pushdown Automaton (PDA). The grammar used is:
 
 > **G:**  
 > **S → aSb | ε**
-
 1. **Algorithm 1:**  
    - Generates strings that belong to the language defined by the grammar (accepted strings) and strings that do not belong.  
    - The generated strings are displayed and stored in the file `Cadenas_generadas.txt`.  
